@@ -1,0 +1,5 @@
+Timeline	Incumbator Planting Time (s)	Predicted Planting Time (s)	Planting Time (s)	Reaping Time (s)	https://3cfv.jimdofree.com
+2	3117330.027				Request your file now to predict crop growth
+4	1470590.909				E: solomon.ubani3@mail.dcu.ie
+6	2513941.091	2513941.091	2513941.09	2513941.09	Sample Values have been filled in for guide. Please feel free to put your crops counting from July 31st
+8		#N/A	#N/A	#N/A	
