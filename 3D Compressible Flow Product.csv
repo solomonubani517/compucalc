@@ -16,3 +16,30 @@ Timeline,Incumbator Planting Time (s),Predicted Planting Time (s),Planting Time 
     }
   }
 }
+with import <nixpkgs> {};
+
+stdenv.mkDerivation {
+    name = "csb";
+    buildInputs = [
+        chromium
+        postgres
+    ];
+    shellHook = ''
+        export PATH="$PWD/node_modules/.bin/:$PATH"
+    '';
+}
+{
+    // Deployment fields...
+    "environment": "CodeSandbox (Task Name)",
+    "payload": {
+        "provider": "CodeSandbox",
+        "codesandbox": {
+            "preview_url": "...",
+            "shortid": "...",
+            "task": "..."
+        }
+    }
+}
+{
+  "packages": ["./", "packages/vue-template-compiler"]
+}
