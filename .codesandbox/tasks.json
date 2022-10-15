@@ -1,0 +1,25 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "npm i -g vercel": {
+      "name": "npm i -g vercel",
+      "command": "npm i -g vercel",
+      "runAtStart": true
+    },
+    "sudo apt-get install": {
+      "name": "sudo apt-get install",
+      "command": "sudo apt-get install"
+    },
+    "csb.nix": {
+      "name": "csb.nix",
+      "command": "csb.nix"
+    },
+    "create-next-app": {
+      "name": "create-next-app",
+      "command": "create-next-app"
+    }
+  }
+}
