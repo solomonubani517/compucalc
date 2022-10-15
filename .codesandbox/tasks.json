@@ -36,6 +36,10 @@
     "tasks.json": {
       "name": "tasks.json",
       "command": "tasks.json"
+    },
+    "gh pr checkout 3": {
+      "name": "gh pr checkout 3",
+      "command": "gh pr checkout 3"
     }
   }
 }
