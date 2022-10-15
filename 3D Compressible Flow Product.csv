@@ -1,45 +1,14 @@
-Timeline,Incumbator Planting Time (s),Predicted Planting Time (s),Planting Time (s),Reaping Time (s),https://3cfv.jimdofree.com
-2,3117330.027,,,,Request your file now to predict crop growth
-4,1470590.909,,,,E: solomon.ubani3@mail.dcu.ie
-6,2513941.091,2513941.091,2513941.09,2513941.09,Sample Values have been filled in for guide. Please feel free to put your crops counting from July 31st
-8,,#NAME?,#NAME?,#NAME?,
-{
-  // These tasks will run in order when initializing your CodeSandbox project.
-  "setupTasks": [],
-
-  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
-  "tasks": {
-    "npm i -g vercel": {
-      "name": "npm i -g vercel",
-      "command": "npm i -g vercel",
-      "runAtStart": true
-    }
-  }
-}
-with import <nixpkgs> {};
-
-stdenv.mkDerivation {
-    name = "csb";
-    buildInputs = [
-        chromium
-        postgres
-    ];
-    shellHook = ''
-        export PATH="$PWD/node_modules/.bin/:$PATH"
-    '';
-}
-{
-    // Deployment fields...
-    "environment": "CodeSandbox (Task Name)",
-    "payload": {
-        "provider": "CodeSandbox",
-        "codesandbox": {
-            "preview_url": "...",
-            "shortid": "...",
-            "task": "..."
-        }
-    }
-}
-{
-  "packages": ["./", "packages/vue-template-compiler"]
-}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    Timeline,Incumbator Planting Time (s),Predicted Planting Time (s),Planting Time (s),Reaping Time (s),https://3cfv.jimdofree.com 2,3117330.027,,,,Request your file now to predict crop growth
+    4,1470590.909,,,,E: solomon.ubani3@mail.dcu.ie 6,2513941.091,2513941.091,2513941.09,2513941.09,Sample Values have been filled in for guide. Please feel free to put your crops counting from July
+    31st 8,,#NAME?,#NAME?,#NAME?, { // These tasks will run in order when initializing your CodeSandbox project. "setupTasks": [], // These tasks can be run from CodeSandbox. Running one will open a
+    log in the app. "tasks": { "npm i -g vercel": { "name": "npm i -g vercel", "command": "npm i -g vercel", "runAtStart": true } } } with import {}; stdenv.mkDerivation { name = "csb"; buildInputs =
+    [ chromium postgres ]; shellHook = '' export PATH="$PWD/node_modules/.bin/:$PATH" ''; } { // Deployment fields... "environment": "CodeSandbox (Task Name)", "payload": { "provider": "CodeSandbox",
+    "codesandbox": { "preview_url": "...", "shortid": "...", "task": "..." } } } { "packages": ["./", "packages/vue-template-compiler"] }
+  </body>
+</html>
